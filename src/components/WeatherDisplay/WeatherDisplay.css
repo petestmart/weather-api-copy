@@ -1,0 +1,10 @@
+.current-weather-display {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.weatherDisplayCard {
+    padding-right: 5px;
+}
+
