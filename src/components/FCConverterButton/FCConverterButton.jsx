@@ -48,6 +48,7 @@ class FCConverterButton extends Component {
                         onClick={this.handleClick}
                         variant="contained"
                         color="secondary"
+                        data-testid="converterButton"
                     >
                         Convert To Fahrenheit
                 </Button>

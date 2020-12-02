@@ -1,7 +1,7 @@
 // ========== REACT ========== //
 import React, { Component } from "react";
-
 import { connect } from "react-redux";
+
 
 // ========== COMPONENTS ========== //
 import Nav from "../Nav/Nav";
@@ -9,7 +9,7 @@ import Footer from "../Footer/Footer";
 import WeatherDisplay from "../WeatherDisplay/WeatherDisplay";
 
 // ========== MATERIAL UI ========== //
-import { withStyles } from '@material-ui/core/styles';
+import { withStyles } from "@material-ui/core/styles";
 
 // ========== STYLES ========== //
 import "./App.css";
@@ -24,18 +24,17 @@ const styles = (theme) => ({
 });
 
 class App extends Component {
-  componentDidMount() {
-    
-  }
+  componentDidMount() {}
 
   render() {
-
     return (
-      <div>
-        <Nav />
-        <WeatherDisplay />
-        <Footer />
-      </div>
+     
+        <div>
+          <Nav />
+          <WeatherDisplay />
+          <Footer />
+        </div>
+      
     );
   }
 }
